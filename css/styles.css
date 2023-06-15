@@ -157,9 +157,9 @@ body {
   max-width: 1440px;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 188px;
-  padding-bottom: 188px;
-  /* text-align: center; */
+  padding-top: 112px;
+  padding-bottom: 112px;
+  text-align: center;
 
   background-color: var(--color-primary);
   background-image: linear-gradient(
@@ -219,18 +219,6 @@ body {
 
 .advantages-item:not(:last-child) {
   margin-bottom: 72px;
-}
-
-.advantg-icon-wraper {
-  display: none;
-  height: 112px;
-  background-color: var(--light-color);
-  background-repeat: no-repeat;
-  background-position: center;
-  align-items: center;
-  justify-content: center;
-  border-radius: 4px;
-  margin-bottom: 8px;
 }
 
 /* common class for sections */
@@ -857,6 +845,10 @@ body {
     max-width: 426px;
   }
 
+  .advantg-icon-wraper {
+    display: none;
+  }
+
   /* team-section */
 
   .team-section > .container {
@@ -932,6 +924,14 @@ body {
 
   .advantg-icon-wraper {
     display: flex;
+    height: 112px;
+    background-color: var(--light-color);
+    background-repeat: no-repeat;
+    background-position: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    margin-bottom: 8px;
   }
 
   .section-subtitle {
