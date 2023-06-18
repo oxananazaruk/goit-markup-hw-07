@@ -728,7 +728,8 @@ body {
   left: 50%;
   transform: translate(-50%, -50%) scale(1);
   transition: transform var(--transition);
-  width: 408px;
+  width: 100%;
+  max-width: 408px;
   min-height: 584px;
 
   background: #fcfcfc;
@@ -1037,17 +1038,13 @@ body {
   }
 
   .address-list {
-    display: flex;
-    gap: 40px;
+    display: block;
   }
 
   .contact-link {
-    display: block;
-    padding-top: 24px;
-    padding-bottom: 24px;
-
     color: var(--secondary-color);
-    line-height: 1.5;
+    font-size: 12px;
+    line-height: 1.17;
     letter-spacing: 0.02em;
     transition: color var(--transition);
   }
@@ -1134,9 +1131,13 @@ body {
   }
 }
 
-/* DESCTOP */
+/* Tablet only */
 
 @media screen and (max-width: 1157px) {
+  .address-item:not(:last-child) {
+    margin-bottom: 12px;
+  }
+
   .advantg-icon-wraper {
     display: none;
   }
@@ -1147,9 +1148,30 @@ body {
   }
 }
 
+/* DESCTOP */
+
 @media screen and (min-width: 1158px) {
   .container {
     max-width: 1158px;
+  }
+
+  /* Heder */
+  .logo {
+    margin-right: 120px;
+  }
+
+  .address-list {
+    display: flex;
+    gap: 40px;
+  }
+
+  .contact-link {
+    display: block;
+    padding-top: 24px;
+    padding-bottom: 24px;
+
+    line-height: 1.5;
+    font-size: 16px;
   }
 
   /* hero section */
