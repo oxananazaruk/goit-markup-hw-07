@@ -169,6 +169,7 @@ body {
   color: var(--color-active);
 }
 .curent {
+  color: var(--color-active);
 }
 .mob-menu-address {
   font-style: normal;
@@ -1148,7 +1149,7 @@ body {
   }
 }
 
-/* DESCTOP */
+/* DESKTOP */
 
 @media screen and (min-width: 1158px) {
   .container {
