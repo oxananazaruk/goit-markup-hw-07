@@ -1,0 +1,378 @@
+/* MEDIA */
+
+@media screen and (max-width: 417px) {
+  .mob-menu-tel {
+    font-size: 24px;
+  }
+}
+
+@media screen and (min-width: 428px) {
+  .container {
+    max-width: 426px;
+  }
+
+  /* hero section */
+  .hero-section {
+    background-color: var(--color-primary);
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/people-office-tab.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero-section {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/people-office-tab-2x.jpg);
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer-container {
+    text-align: center;
+  }
+
+  .footer-text {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .footer-soc-list {
+    justify-content: center;
+  }
+
+  .footer-input {
+    width: 100%;
+  }
+
+  .team-section > .container {
+    max-width: 294px;
+  }
+
+  .section-subtitle {
+    text-align: center;
+  }
+}
+
+/* TABLET */
+
+@media screen and (min-width: 768px) {
+  .logo {
+    margin-right: 76px;
+  }
+
+  .container {
+    max-width: 766px;
+  }
+
+  /* Heder */
+
+  .menu-open-btn {
+    display: none;
+  }
+
+  .main-nav {
+  }
+
+  .site-nav {
+    display: flex;
+    gap: 40px;
+  }
+
+  .nav-link {
+    display: block;
+    padding-top: 24px;
+    padding-bottom: 24px;
+
+    color: var(--color-primary);
+    font-weight: 500;
+
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    position: relative;
+    transition: color var(--transition);
+  }
+
+  .nav-link:hover,
+  .nav-link:focus {
+    color: var(--color-active);
+  }
+
+  .curent::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    width: 100%;
+    height: 4px;
+    background-color: var(--color-active);
+    border-radius: 2px;
+  }
+
+  .nav-link.curent {
+    color: var(--color-active);
+  }
+
+  .address {
+    margin-left: auto;
+    font-style: normal;
+  }
+
+  .address-list {
+    display: block;
+  }
+
+  .contact-link {
+    color: var(--secondary-color);
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.02em;
+    transition: color var(--transition);
+  }
+
+  .contact-link:hover,
+  .contact-link:focus {
+    color: var(--color-active);
+  }
+
+  /* hero section */
+  .hero-section {
+    background-color: var(--color-primary);
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/people-office.jpg);
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero-section {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/people-office-2x.jpg);
+    }
+  }
+
+  .hero-title {
+    margin-bottom: 36px;
+  }
+
+  /* advantages section */
+
+  .advantages-list {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+  }
+
+  .advantages-item {
+    flex-basis: calc((100% - 24px) / 2);
+  }
+
+  /* team-section */
+
+  .team-section > .container,
+  .customers > .container {
+    max-width: 582px;
+  }
+  .team-list {
+    row-gap: 64px;
+  }
+
+  .employee-card {
+    flex-basis: calc((100% - 24px) / 2);
+  }
+
+  /* customers */
+
+  .customers-list {
+    column-gap: 24px;
+  }
+  .customers-item {
+    width: calc((100% - 48px) / 3);
+  }
+
+  /* Footer */
+
+  .footer-input {
+    width: 264px;
+  }
+
+  .footer-container {
+    max-width: 582px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+  }
+
+  .footer-input {
+    margin-right: 24px;
+    margin-bottom: 0;
+  }
+
+  /* Modal */
+  .modal {
+    max-width: 408px;
+  }
+}
+
+/* Tablet only */
+
+@media screen and (max-width: 1157px) {
+  .address-item:not(:last-child) {
+    margin-bottom: 12px;
+  }
+
+  .advantg-icon-wraper {
+    display: none;
+  }
+
+  /* Footer */
+  .subscribe-wrap {
+    margin-left: 0;
+  }
+}
+
+/* DESKTOP */
+
+@media screen and (min-width: 1158px) {
+  .container {
+    max-width: 1158px;
+  }
+
+  /* Heder */
+  .logo {
+    margin-right: 120px;
+  }
+
+  .address-list {
+    display: flex;
+    gap: 40px;
+  }
+
+  .contact-link {
+    display: block;
+    padding-top: 24px;
+    padding-bottom: 24px;
+
+    line-height: 1.5;
+    font-size: 16px;
+  }
+
+  /* hero section */
+  .hero-section {
+    max-width: 1440px;
+    padding-top: 188px;
+    padding-bottom: 188px;
+  }
+
+  .hero-title {
+    margin-bottom: 42px;
+  }
+
+  /* advantages section */
+  .advantages-item {
+    flex-basis: calc((100% - 72px) / 4);
+  }
+
+  .advantg-icon-wraper {
+    display: flex;
+    height: 112px;
+    background-color: var(--light-color);
+    background-repeat: no-repeat;
+    background-position: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    margin-bottom: 8px;
+  }
+
+  .section-subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+  }
+
+  .section-text {
+    font-weight: 400;
+    font-size: 16px;
+  }
+
+  .section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  /* doing section */
+  .section.no-padding {
+    display: block;
+    padding-top: 0;
+  }
+
+  .doing-list {
+    display: flex;
+    gap: 24px;
+  }
+  .doing-item {
+    flex-basis: calc((100% - 48px) / 3);
+  }
+
+  /* team-section */
+
+  .team-section > .container,
+  .customers > .container {
+    max-width: 1158px;
+  }
+
+  .employee-card {
+    flex-basis: calc((100% - 72px) / 4);
+  }
+
+  /* customers */
+
+  .customers-item {
+    width: calc((100% - 120px) / 6);
+  }
+
+  /* Footer */
+
+  .footer {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .footer-container {
+    max-width: 1158px;
+  }
+
+  .logo-wrapper {
+    margin-right: 120px;
+    margin-bottom: 0;
+  }
+
+  .footer-soc-wrap {
+    margin-bottom: 0;
+  }
+
+  .footer-input {
+    border: 1px solid var(--invert-color);
+  }
+
+  .footer-input::placeholder {
+    color: var(--invert-color);
+  }
+}
