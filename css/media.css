@@ -1,5 +1,4 @@
-/* MEDIA */
-
+/* Mobile */
 @media screen and (max-width: 417px) {
   .mob-menu-tel {
     font-size: 24px;
@@ -36,6 +35,8 @@
     }
   }
 }
+
+/* Mobile only */
 
 @media screen and (max-width: 767px) {
   .footer-container {
@@ -79,9 +80,6 @@
 
   .menu-open-btn {
     display: none;
-  }
-
-  .main-nav {
   }
 
   .site-nav {
