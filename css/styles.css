@@ -66,7 +66,6 @@ body {
 }
 
 .logo {
-  /* margin-right: 76px; */
   display: block;
 
   font-family: 'Raleway', sans-serif;
@@ -129,14 +128,15 @@ body {
 }
 
 .menu-close-btn {
+  display: block;
+  margin-left: auto;
   width: 24px;
   height: 24px;
   border-radius: 50%;
   border: 1px solid rgba(46, 47, 66, 0.1);
-  cursor: pointer;
 
-  display: block;
-  margin-left: auto;
+  padding: 0;
+  /* font-size: 0; */
   margin-bottom: 32px;
   background-color: var(--border-color);
   color: var(--color-primary);
