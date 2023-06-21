@@ -101,6 +101,8 @@ body {
 .menu-open-btn {
   border: none;
   background-color: transparent;
+  padding: 24px 0;
+  font-size: 0;
 }
 
 .menu-open-icon {
@@ -302,10 +304,6 @@ body {
 
 .advantages-item {
   width: 100%;
-}
-
-.advantages-item:not(:last-child) {
-  margin-bottom: 72px;
 }
 
 /* common class for sections */
