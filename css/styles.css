@@ -599,9 +599,10 @@ body {
 /* ------------Portfolio page------------- */
 .filter-btn-list {
   display: flex;
-  gap: 24px;
-  justify-content: center;
-  margin-bottom: 72px;
+  flex-wrap: wrap;
+  gap: 16px 24px;
+  justify-content: left;
+  margin-bottom: 48px;
 }
 
 .filter-button {
@@ -632,7 +633,8 @@ body {
 
 /* ------------Examples of work------------ */
 .section.less-padding {
-  padding-top: 96px;
+  padding-top: 48px;
+  padding-bottom: 48px;
 }
 
 .examples-list {
@@ -643,12 +645,25 @@ body {
 }
 
 .examples-item {
-  flex-basis: calc((100% - 48px) / 3);
   transition: transform var(--transition);
 }
 
+.examples-subtitle {
+  margin-top: 0;
+  margin-bottom: 8px;
+  color: var(--color-primary);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+}
+
 .content-category {
+  margin-top: 0;
+  margin-bottom: 0;
   color: var(--secondary-color);
+  line-height: 1.5;
+  letter-spacing: 0.32px;
 }
 
 .examples-link {

@@ -82,12 +82,10 @@
             </button>
             <ul class="list mob-menu-list">
               <li class="mob-menu-item">
-                <a class="link mob-menu-link curent" href="./index.html"
-                  >Studio</a
-                >
+                <a class="link mob-menu-link" href="./index.html">Studio</a>
               </li>
               <li class="mob-menu-item">
-                <a class="link mob-menu-link" href="./portfolio.html"
+                <a class="link mob-menu-link curent" href="./portfolio.html"
                   >Portfolio</a
                 >
               </li>
@@ -195,12 +193,33 @@
             <li class="examples-item">
               <a class="link examples-link" href="#">
                 <div class="examples-cover-wrap">
-                  <img
-                    src="./images/work1.jpg"
-                    alt="Example of work"
-                    width="360"
-                    height="300"
-                  />
+                  <picture>
+                    <source
+                      srcset="./images/work1.jpg 1x, ./images/work1-2x.jpg 2x"
+                      media="(min-width: 1158px)"
+                    />
+
+                    <source
+                      srcset="
+                        ./images/work1-tab.jpg    1x,
+                        ./images/work1-tab-2x.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/work1-mob.jpg    1x,
+                        ./images/work1-mob-2x.jpg 2x
+                      "
+                      media="(min-width: 320px)"
+                    />
+                    <img
+                      src="./images/work1-mob.jpg"
+                      alt="Example of work"
+                      width="396"
+                    />
+                  </picture>
+
                   <p class="examples-cover-text">
                     14 Stylish and User-Friendly App Design Concepts · Task
                     Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
@@ -208,22 +227,42 @@
                   </p>
                 </div>
                 <div class="examples-descr">
-                  <h2 class="section-subtitle">
+                  <h2 class="examples-subtitle">
                     Banking App Interface Concept
                   </h2>
-                  <p class="content-category section-text">App</p>
+                  <p class="content-category">App</p>
                 </div>
               </a>
             </li>
             <li class="examples-item">
               <a class="link examples-link" href="#">
                 <div class="examples-cover-wrap">
-                  <img
-                    src="./images/work2.jpg"
-                    alt="Example of work"
-                    width="360"
-                    height="300"
-                  />
+                  <picture>
+                    <source
+                      srcset="./images/work2.jpg 1x, ./images/work2-2x.jpg 2x"
+                      media="(min-width: 1158px)"
+                    />
+
+                    <source
+                      srcset="
+                        ./images/work2-tab.jpg    1x,
+                        ./images/work2-tab-2x.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/work2-mob.jpg    1x,
+                        ./images/work2-mob-2x.jpg 2x
+                      "
+                      media="(min-width: 320px)"
+                    />
+                    <img
+                      src="./images/work2-mob.jpg"
+                      alt="Example of work"
+                      width="396"
+                    />
+                  </picture>
                   <p class="examples-cover-text">
                     14 Stylish and User-Friendly App Design Concepts · Task
                     Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
@@ -231,20 +270,40 @@
                   </p>
                 </div>
                 <div class="examples-descr">
-                  <h2 class="section-subtitle">Cashless Payment</h2>
-                  <p class="content-category section-text">Marketing</p>
+                  <h2 class="examples-subtitle">Cashless Payment</h2>
+                  <p class="content-category">Marketing</p>
                 </div>
               </a>
             </li>
             <li class="examples-item">
               <a class="link examples-link" href="#">
                 <div class="examples-cover-wrap">
-                  <img
-                    src="./images/work3.jpg"
-                    alt="Example of work"
-                    width="360"
-                    height="300"
-                  />
+                  <picture>
+                    <source
+                      srcset="./images/work3.jpg 1x, ./images/work3-2x.jpg 2x"
+                      media="(min-width: 1158px)"
+                    />
+
+                    <source
+                      srcset="
+                        ./images/work3-tab.jpg    1x,
+                        ./images/work3-tab-2x.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/work3-mob.jpg    1x,
+                        ./images/work3-mob-2x.jpg 2x
+                      "
+                      media="(min-width: 320px)"
+                    />
+                    <img
+                      src="./images/work3-mob.jpg"
+                      alt="Example of work"
+                      width="396"
+                    />
+                  </picture>
                   <p class="examples-cover-text">
                     14 Stylish and User-Friendly App Design Concepts · Task
                     Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
@@ -252,20 +311,40 @@
                   </p>
                 </div>
                 <div class="examples-descr">
-                  <h2 class="section-subtitle">Meditation App</h2>
-                  <p class="content-category section-text">App</p>
+                  <h2 class="examples-subtitle">Meditation App</h2>
+                  <p class="content-category">App</p>
                 </div>
               </a>
             </li>
             <li class="examples-item">
               <a class="link examples-link" href="#">
                 <div class="examples-cover-wrap">
-                  <img
-                    src="./images/work4.jpg"
-                    alt="Example of work"
-                    width="360"
-                    height="300"
-                  />
+                  <picture>
+                    <source
+                      srcset="./images/work4.jpg 1x, ./images/work4-2x.jpg 2x"
+                      media="(min-width: 1158px)"
+                    />
+
+                    <source
+                      srcset="
+                        ./images/work4-tab.jpg    1x,
+                        ./images/work4-tab-2x.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/work4-mob.jpg    1x,
+                        ./images/work4-mob-2x.jpg 2x
+                      "
+                      media="(min-width: 320px)"
+                    />
+                    <img
+                      src="./images/work4-mob.jpg"
+                      alt="Example of work"
+                      width="396"
+                    />
+                  </picture>
                   <p class="examples-cover-text">
                     14 Stylish and User-Friendly App Design Concepts · Task
                     Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
@@ -273,20 +352,40 @@
                   </p>
                 </div>
                 <div class="examples-descr">
-                  <h2 class="section-subtitle">Taxi Service</h2>
-                  <p class="content-category section-text">Marketing</p>
+                  <h2 class="examples-subtitle">Taxi Service</h2>
+                  <p class="content-category">Marketing</p>
                 </div>
               </a>
             </li>
             <li class="examples-item">
               <a class="link examples-link" href="#">
                 <div class="examples-cover-wrap">
-                  <img
-                    src="./images/work5.jpg"
-                    alt="Example of work"
-                    width="360"
-                    height="300"
-                  />
+                  <picture>
+                    <source
+                      srcset="./images/work5.jpg 1x, ./images/work5-2x.jpg 2x"
+                      media="(min-width: 1158px)"
+                    />
+
+                    <source
+                      srcset="
+                        ./images/work5-tab.jpg    1x,
+                        ./images/work5-tab-2x.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/work5-mob.jpg    1x,
+                        ./images/work5-mob-2x.jpg 2x
+                      "
+                      media="(min-width: 320px)"
+                    />
+                    <img
+                      src="./images/work5-mob.jpg"
+                      alt="Example of work"
+                      width="396"
+                    />
+                  </picture>
                   <p class="examples-cover-text">
                     14 Stylish and User-Friendly App Design Concepts · Task
                     Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
@@ -294,20 +393,40 @@
                   </p>
                 </div>
                 <div class="examples-descr">
-                  <h2 class="section-subtitle">Screen Illustrations</h2>
-                  <p class="content-category section-text">Design</p>
+                  <h2 class="examples-subtitle">Screen Illustrations</h2>
+                  <p class="content-category">Design</p>
                 </div>
               </a>
             </li>
             <li class="examples-item">
               <a class="link examples-link" href="#">
                 <div class="examples-cover-wrap">
-                  <img
-                    src="./images/work6.jpg"
-                    alt="Example of work"
-                    width="360"
-                    height="300"
-                  />
+                  <picture>
+                    <source
+                      srcset="./images/work6.jpg 1x, ./images/work6-2x.jpg 2x"
+                      media="(min-width: 1158px)"
+                    />
+
+                    <source
+                      srcset="
+                        ./images/work6-tab.jpg    1x,
+                        ./images/work6-tab-2x.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/work6-mob.jpg    1x,
+                        ./images/work6-mob-2x.jpg 2x
+                      "
+                      media="(min-width: 320px)"
+                    />
+                    <img
+                      src="./images/work6-mob.jpg"
+                      alt="Example of work"
+                      width="396"
+                    />
+                  </picture>
                   <p class="examples-cover-text">
                     14 Stylish and User-Friendly App Design Concepts · Task
                     Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
@@ -315,20 +434,40 @@
                   </p>
                 </div>
                 <div class="examples-descr">
-                  <h2 class="section-subtitle">Online Courses</h2>
-                  <p class="content-category section-text">Marketing</p>
+                  <h2 class="examples-subtitle">Online Courses</h2>
+                  <p class="content-category">Marketing</p>
                 </div>
               </a>
             </li>
             <li class="examples-item">
               <a class="link examples-link" href="#">
                 <div class="examples-cover-wrap">
-                  <img
-                    src="./images/work7.jpg"
-                    alt="Example of work"
-                    width="360"
-                    height="300"
-                  />
+                  <picture>
+                    <source
+                      srcset="./images/work7.jpg 1x, ./images/work7-2x.jpg 2x"
+                      media="(min-width: 1158px)"
+                    />
+
+                    <source
+                      srcset="
+                        ./images/work7-tab.jpg    1x,
+                        ./images/work7-tab-2x.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/work7-mob.jpg    1x,
+                        ./images/work7-mob-2x.jpg 2x
+                      "
+                      media="(min-width: 320px)"
+                    />
+                    <img
+                      src="./images/work7-mob.jpg"
+                      alt="Example of work"
+                      width="396"
+                    />
+                  </picture>
                   <p class="examples-cover-text">
                     14 Stylish and User-Friendly App Design Concepts · Task
                     Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
@@ -336,20 +475,40 @@
                   </p>
                 </div>
                 <div class="examples-descr">
-                  <h2 class="section-subtitle">Instagram Stories Concept</h2>
-                  <p class="content-category section-text">Design</p>
+                  <h2 class="examples-subtitle">Instagram Stories Concept</h2>
+                  <p class="content-category">Design</p>
                 </div>
               </a>
             </li>
             <li class="examples-item">
               <a class="link examples-link" href="#">
                 <div class="examples-cover-wrap">
-                  <img
-                    src="./images/work8.jpg"
-                    alt="Example of work"
-                    width="360"
-                    height="300"
-                  />
+                  <picture>
+                    <source
+                      srcset="./images/work8.jpg 1x, ./images/work8-2x.jpg 2x"
+                      media="(min-width: 1158px)"
+                    />
+
+                    <source
+                      srcset="
+                        ./images/work8-tab.jpg    1x,
+                        ./images/work8-tab-2x.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/work8-mob.jpg    1x,
+                        ./images/work8-mob-2x.jpg 2x
+                      "
+                      media="(min-width: 320px)"
+                    />
+                    <img
+                      src="./images/work8-mob.jpg"
+                      alt="Example of work"
+                      width="396"
+                    />
+                  </picture>
                   <p class="examples-cover-text">
                     14 Stylish and User-Friendly App Design Concepts · Task
                     Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
@@ -357,20 +516,40 @@
                   </p>
                 </div>
                 <div class="examples-descr">
-                  <h2 class="section-subtitle">Organic Food</h2>
-                  <p class="content-category section-text">Web Site</p>
+                  <h2 class="examples-subtitle">Organic Food</h2>
+                  <p class="content-category">Web Site</p>
                 </div>
               </a>
             </li>
             <li class="examples-item">
               <a class="link examples-link" href="#">
                 <div class="examples-cover-wrap">
-                  <img
-                    src="./images/work9.jpg"
-                    alt="Example of work"
-                    width="360"
-                    height="300"
-                  />
+                  <picture>
+                    <source
+                      srcset="./images/work9.jpg 1x, ./images/work9-2x.jpg 2x"
+                      media="(min-width: 1158px)"
+                    />
+
+                    <source
+                      srcset="
+                        ./images/work9-tab.jpg    1x,
+                        ./images/work9-tab-2x.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/work9-mob.jpg    1x,
+                        ./images/work9-mob-2x.jpg 2x
+                      "
+                      media="(min-width: 320px)"
+                    />
+                    <img
+                      src="./images/work9-mob.jpg"
+                      alt="Example of work"
+                      width="396"
+                    />
+                  </picture>
                   <p class="examples-cover-text">
                     14 Stylish and User-Friendly App Design Concepts · Task
                     Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
@@ -378,8 +557,8 @@
                   </p>
                 </div>
                 <div class="examples-descr">
-                  <h2 class="section-subtitle">Fresh Coffee</h2>
-                  <p class="content-category section-text">Web Site</p>
+                  <h2 class="examples-subtitle">Fresh Coffee</h2>
+                  <p class="content-category">Web Site</p>
                 </div>
               </a>
             </li>
